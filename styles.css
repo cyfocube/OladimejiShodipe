@@ -97,6 +97,8 @@ p {
     list-style: none;
     gap: 2rem;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .nav-link {
@@ -120,6 +122,7 @@ p {
 /* Dropdown */
 .dropdown {
     position: relative;
+    z-index: 9999;
 }
 
 .dropdown-content {
@@ -129,7 +132,7 @@ p {
     min-width: 200px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     border-radius: 8px;
-    z-index: 1;
+    z-index: 10000;
     top: 100%;
     right: 0;
     border: 1px solid #e5e7eb;
@@ -815,6 +818,46 @@ p {
     background: #1f2937;
     color: white;
     padding: 2rem 0 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('menu_combined_scroll_bg.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    opacity: 0;
+    animation: fadeSlideBackground 8s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes fadeSlideBackground {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    25% {
+        opacity: 0.3;
+        transform: translateX(0%);
+    }
+    50% {
+        opacity: 0.2;
+        transform: translateX(0%);
+    }
+    75% {
+        opacity: 0.3;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
 }
 
 .footer-content {
@@ -822,6 +865,8 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    position: relative;
+    z-index: 10;
 }
 
 .footer-left h4 {
@@ -854,6 +899,8 @@ p {
     text-align: center;
     padding-top: 1rem;
     border-top: 1px solid #374151;
+    position: relative;
+    z-index: 10;
 }
 
 .footer-bottom p {
@@ -1042,4 +1089,44 @@ p {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+}
+
+/* Faded Image Effects */
+.faded-image {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.faded-image:hover {
+    opacity: 1;
+}
+
+.faded-light {
+    opacity: 0.8;
+    filter: brightness(1.1) contrast(0.9);
+}
+
+.faded-medium {
+    opacity: 0.6;
+    filter: brightness(1.05) contrast(0.85);
+}
+
+.faded-heavy {
+    opacity: 0.4;
+    filter: brightness(1.1) contrast(0.8);
+}
+
+.fade-overlay {
+    position: relative;
+}
+
+.fade-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+    pointer-events: none;
 }
