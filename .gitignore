@@ -1,0 +1,20 @@
+# Ignore Word document temp files
+~$*.docx
+~$*.doc
+
+# Ignore DS_Store files (macOS)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Optional: Keep only web files for deployment
+# *.docx
+# *.pdf
