@@ -2154,11 +2154,21 @@ p {
         border: 3px solid rgba(255, 255, 255, 0.2);
     }
     
+    .profile-image-container {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
     .image-border {
-        top: -7px;
-        left: -7px;
-        right: -7px;
-        bottom: -7px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 164px;
+        height: 164px;
+        transform: translate(-50%, -50%);
         border: 1.5px solid #3b82f6;
+        border-radius: 50%;
     }
 }
