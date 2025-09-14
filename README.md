@@ -1,6 +1,6 @@
-# DR. OLATUNJI SHOBANDE - Academic Website
+# DR. OLADIMEJI SHODIPE - Academic Website
 
-A professional academic website showcasing the research, publications, and academic contributions of Dr. Olatunji Shobande, Assistant Professor of Economics at Hartwick College.
+A professional academic website showcasing the research, publications, and academic contributions of Dr. Oladimeji Shodipe, Assistant Professor of Economics at Hartwick College.
 
 ## 🌟 Live Website
 
@@ -8,11 +8,11 @@ Visit the live website: [https://cyfocube.github.io/ShobandeOlatunji/](https://c
 
 ## 📋 About
 
-This is a comprehensive academic portfolio website designed to showcase Dr. Olatunji Shobande's professional achievements, research contributions, and academic services. The website features a modern, responsive design with interactive elements and professional styling.
+This is a comprehensive academic portfolio website designed to showcase Dr. Oladimeji Shodipe's professional achievements, research contributions, and academic services. The website features a modern, responsive design with interactive elements and professional styling.
 
-## 👨‍🎓 About Dr. Olatunji Shobande
+## 👨‍🎓 About Dr. Oladimeji Shodipe
 
-Dr. Olatunji Shobande is an Assistant Professor of Economics at Hartwick College. His research examines the interdependence of energy economics, climate finance, renewable transitions, and sustainability, drawing upon advanced expertise in macroeconomic modelling, econometrics, and public policy.
+Dr. Oladimeji Shodipe is an Assistant Professor of Economics at Hartwick College. His research examines the interdependence of energy economics, climate finance, renewable transitions, and sustainability, drawing upon advanced expertise in macroeconomic modelling, econometrics, and public policy.
 
 ## 🚀 Features
 
@@ -190,7 +190,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-**Dr. Olatunji Shobande**
+**Dr. Oladimeji Shodipe**
 - **Email**: olatunji.shobande@yahoo.com
 - **Office**: 238 Golisano Building, Hartwick College, Oneonta, NY 13820
 - **Phone**: 607-431-4889
