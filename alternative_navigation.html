@@ -1,0 +1,593 @@
+<!-- Alternative Excellent Navigation Menu -->
+<nav class="navbar-alt">
+    <div class="nav-container-alt">
+        <!-- Logo/Brand Section -->
+        <div class="nav-brand">
+            <div class="brand-content">
+                <h3 class="brand-name">DR. OLADIMEJI SHODIPE</h3>
+                <span class="brand-subtitle">Economist & Data Scientist</span>
+            </div>
+        </div>
+
+        <!-- Main Navigation Links -->
+        <ul class="nav-menu-alt">
+            <li class="nav-item-alt">
+                <a href="#home" class="nav-link-alt active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="nav-item-alt">
+                <a href="#awards" class="nav-link-alt" data-section="awards">
+                    <i class="fas fa-trophy"></i>
+                    <span>Awards</span>
+                </a>
+            </li>
+            <li class="nav-item-alt">
+                <a href="#publications" class="nav-link-alt" data-section="publications">
+                    <i class="fas fa-book"></i>
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li class="nav-item-alt">
+                <a href="#research" class="nav-link-alt" data-section="research">
+                    <i class="fas fa-flask"></i>
+                    <span>Research</span>
+                </a>
+            </li>
+            <li class="nav-item-alt">
+                <a href="#services" class="nav-link-alt" data-section="services">
+                    <i class="fas fa-users"></i>
+                    <span>Services</span>
+                </a>
+            </li>
+            <li class="nav-item-alt">
+                <a href="#contact" class="nav-link-alt" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Action Buttons -->
+        <div class="nav-actions">
+            <div class="resume-dropdown-alt">
+                <button class="resume-btn" aria-label="Resume Options">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Resume</span>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="resume-dropdown-content">
+                    <a href="Rresume.pdf" target="_blank" class="dropdown-item">
+                        <i class="fas fa-eye"></i>
+                        <span>View Online</span>
+                    </a>
+                    <a href="Rresume.pdf" download class="dropdown-item">
+                        <i class="fas fa-download"></i>
+                        <span>Download PDF</span>
+                    </a>
+                    <a href="Resume.docx" download class="dropdown-item">
+                        <i class="fas fa-file-word"></i>
+                        <span>Download Word</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#contact" class="cta-btn">
+                <i class="fas fa-paper-plane"></i>
+                <span>Get In Touch</span>
+            </a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="mobile-toggle">
+            <button class="hamburger-alt" aria-label="Toggle Navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <div class="mobile-brand">
+                <h3>DR. OLADIMEJI SHODIPE</h3>
+                <span>Economist & Data Scientist</span>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-nav-link"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#awards" class="mobile-nav-link"><i class="fas fa-trophy"></i>Awards</a></li>
+                <li><a href="#publications" class="mobile-nav-link"><i class="fas fa-book"></i>Publications</a></li>
+                <li><a href="#research" class="mobile-nav-link"><i class="fas fa-flask"></i>Research</a></li>
+                <li><a href="#services" class="mobile-nav-link"><i class="fas fa-users"></i>Services</a></li>
+                <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+            <div class="mobile-actions">
+                <div class="mobile-resume-links">
+                    <h4>Resume</h4>
+                    <a href="Rresume.pdf" target="_blank"><i class="fas fa-eye"></i>View Online</a>
+                    <a href="Rresume.pdf" download><i class="fas fa-download"></i>Download PDF</a>
+                    <a href="Resume.docx" download><i class="fas fa-file-word"></i>Download Word</a>
+                </div>
+                <a href="#contact" class="mobile-cta-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<style>
+/* Alternative Excellent Navigation Styles */
+.navbar-alt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.nav-container-alt {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+/* Brand Section */
+.nav-brand {
+    flex-shrink: 0;
+}
+
+.brand-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #1f2937;
+    line-height: 1.2;
+}
+
+.brand-subtitle {
+    font-size: 0.8rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+/* Main Navigation */
+.nav-menu-alt {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.5rem;
+}
+
+.nav-item-alt {
+    position: relative;
+}
+
+.nav-link-alt {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #4b5563;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link-alt i {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link-alt:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.nav-link-alt:hover i {
+    opacity: 1;
+}
+
+.nav-link-alt.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-link-alt.active i {
+    opacity: 1;
+}
+
+/* Action Buttons */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.resume-dropdown-alt {
+    position: relative;
+}
+
+.resume-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    color: #4b5563;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+    border-color: #667eea;
+    background: rgba(102, 126, 234, 0.05);
+    color: #667eea;
+}
+
+.dropdown-icon {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.resume-dropdown-alt:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.resume-dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+    margin-top: 0.5rem;
+}
+
+.resume-dropdown-alt:hover .resume-dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #4b5563;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 0.25rem;
+}
+
+.dropdown-item:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+/* Mobile Toggle */
+.mobile-toggle {
+    display: none;
+}
+
+.hamburger-alt {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hamburger-line {
+    width: 25px;
+    height: 3px;
+    background: #4b5563;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.mobile-brand {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.mobile-brand h3 {
+    margin: 0 0 0.5rem 0;
+    color: #1f2937;
+    font-size: 1.2rem;
+}
+
+.mobile-brand span {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.mobile-nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.mobile-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #4b5563;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.mobile-resume-links {
+    margin-bottom: 1.5rem;
+}
+
+.mobile-resume-links h4 {
+    margin: 0 0 1rem 0;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+.mobile-resume-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: #4b5563;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.mobile-resume-links a:hover {
+    background: #f3f4f6;
+}
+
+.mobile-cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-container-alt {
+        padding: 0 1rem;
+        height: 70px;
+    }
+    
+    .nav-menu-alt,
+    .nav-actions {
+        display: none;
+    }
+    
+    .mobile-toggle {
+        display: block;
+    }
+    
+    .brand-name {
+        font-size: 1rem;
+    }
+    
+    .brand-subtitle {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-link-alt span {
+        display: none;
+    }
+    
+    .nav-link-alt {
+        padding: 0.75rem;
+    }
+    
+    .resume-btn span,
+    .cta-btn span {
+        display: none;
+    }
+    
+    .resume-btn,
+    .cta-btn {
+        padding: 0.75rem;
+    }
+}
+
+/* Scroll Effect */
+.navbar-alt.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation for active states */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-link-alt.active {
+    animation: slideIn 0.3s ease;
+}
+</style>
+
+<script>
+// JavaScript for the alternative navigation
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger-alt');
+    const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+    
+    if (hamburger && mobileOverlay) {
+        hamburger.addEventListener('click', function() {
+            mobileOverlay.style.opacity = '1';
+            mobileOverlay.style.visibility = 'visible';
+        });
+        
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay) {
+                mobileOverlay.style.opacity = '0';
+                mobileOverlay.style.visibility = 'hidden';
+            }
+        });
+    }
+    
+    // Scroll effect
+    const navbar = document.querySelector('.navbar-alt');
+    if (navbar) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    }
+    
+    // Active link tracking
+    const navLinks = document.querySelectorAll('.nav-link-alt');
+    const sections = document.querySelectorAll('section[id]');
+    
+    function updateActiveLink() {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= (sectionTop - 200)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+    }
+    
+    window.addEventListener('scroll', updateActiveLink);
+    
+    // Close mobile menu when clicking links
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (mobileOverlay) {
+                mobileOverlay.style.opacity = '0';
+                mobileOverlay.style.visibility = 'hidden';
+            }
+        });
+    });
+});
+</script>
